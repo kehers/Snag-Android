@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bar_color"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:focusable="false"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:maxWidth="144dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/launcher_b"
+        />
+
+	<TextView
+	    android:id="@+id/tagline"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/launcher_text_b"
+        android:textColor="@color/white"
+	    android:textSize="18sp"
+	    android:padding="8sp"
+	    android:layout_margin="20dp"
+	    android:gravity="center"
+	/>
+	
+	<Button
+        style="@style/button"
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/got_it"
+        android:layout_margin="10sp"
+        android:onClick="startBtnClicked"
+	/> 
+</LinearLayout>	

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bar_color"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:focusable="false"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:maxWidth="144dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/launcher_a"
+        />
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/launcher_text_a"
+        android:textColor="@color/white"
+	    android:textSize="18sp"
+	    android:padding="8sp"
+	    android:layout_margin="30dp"
+	    android:gravity="center"
+	/>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@color/bar_color"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/dot"
+	        android:textColor="@color/white"
+		    android:textSize="50sp"
+		    android:gravity="center"
+		/>
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/dot"
+	        android:textColor="@color/title_color_deep"
+		    android:textSize="50sp"
+		    android:gravity="center"
+		/>
+	</LinearLayout>	
+	 
+</LinearLayout>	
